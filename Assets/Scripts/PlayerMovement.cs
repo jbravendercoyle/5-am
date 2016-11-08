@@ -5,7 +5,7 @@ using System;
 public class PlayerMovement : MonoBehaviour
 {
     public bool moving = true;
-    float speed = 5.0f;
+    float speed = 6.0f;
 
     // Use this for initialization
     void Start()
