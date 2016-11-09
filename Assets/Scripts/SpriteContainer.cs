@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SpriteContainer : MonoBehaviour {
-    public Sprite[] pLegs, pUnarmedWalk;
+    public Sprite[] pLegs, pUnarmedWalk,pPunch,pWaltherWalk, pWaltherAttack;
 	// Use this for initialization
 	void Start () {
 	
@@ -20,4 +20,35 @@ public class SpriteContainer : MonoBehaviour {
     {
         return pUnarmedWalk;
     }
+    public Sprite[] getPlayerPunch()
+    {
+        return pPunch;
+    }
+
+    public Sprite[] getWeapon(string weapon)
+    {
+        switch (weapon)
+        {
+            case "Walther":
+                return pWaltherAttack;
+                break;
+            default:
+                return getPlayerPunch();
+                break;
+        }
+    }
+
+    public Sprite[] getWeaponWalk(string weapon)
+    {
+        switch (weapon)
+        {
+            case "Walther":
+                return pWaltherWalk;
+                break;
+            default:
+                return getPlayerUnarmedWalk();
+                break;
+        }
+    }
+
 }
