@@ -5,7 +5,7 @@ public class WeaponPickup : MonoBehaviour {
     public string name;
     public float fireRate;
     WeaponAttack wa;
-    public bool gun;
+    public bool gun, onehanded;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +27,7 @@ public class WeaponPickup : MonoBehaviour {
             {
                 wa.dropWeapon();
             }
-            wa.setWeapon(this.gameObject, name, fireRate, gun);
+            wa.setWeapon (this.gameObject,name,fireRate, gun,onehanded);
             //Destroy game object
             this.gameObject.SetActive(false);
         }

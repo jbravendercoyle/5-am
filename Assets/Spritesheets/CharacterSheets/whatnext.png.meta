@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c5d8b490508329143b7c642188f65772
-timeCreated: 1478698283
+timeCreated: 1478934097
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -992,19 +992,19 @@ TextureImporter:
         y: 892
         width: 74
         height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.15598457, y: 0.75457275}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 31, y: 18}
-        - {x: -28, y: 18}
-        - {x: -29, y: 14}
-        - {x: -29, y: 6}
-        - {x: -11, y: -12}
-        - {x: 6, y: -25}
-        - {x: 26, y: -25}
-        - {x: 32, y: -19}
-        - {x: 32, y: 16}
+      - - {x: 56.45714, y: 5.2713623}
+        - {x: -2.5428581, y: 5.2713623}
+        - {x: -3.5428581, y: 1.2713623}
+        - {x: -3.5428581, y: -6.7286377}
+        - {x: 14.457142, y: -24.728638}
+        - {x: 31.457142, y: -37.728638}
+        - {x: 51.45714, y: -37.728638}
+        - {x: 57.45714, y: -31.728638}
+        - {x: 57.45714, y: 3.2713623}
     - name: whatnext_30
       rect:
         serializedVersion: 2

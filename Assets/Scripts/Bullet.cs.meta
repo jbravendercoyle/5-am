@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8e39440cc58ce049b8907d213e8f02e
+timeCreated: 1478926959
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bloodImpact: {fileID: 139114, guid: aab1f1bb7b16ce04892171360b3cb46a, type: 2}
+  - wallImpact: {fileID: 139114, guid: aab1f1bb7b16ce04892171360b3cb46a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
