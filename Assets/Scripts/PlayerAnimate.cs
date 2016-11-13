@@ -5,11 +5,14 @@ public class PlayerAnimate : MonoBehaviour {
     Sprite[] walking, attacking, legsSpr;
     int counter = 0, legCount = 0;
     PlayerMovement pm;
-    float timer = 0.05f, legTimer = 0.0f;
+    float timer = 0.05f, legTimer = 0.05f;
     public SpriteRenderer torso, legs;
     SpriteContainer sc;
+    WeaponAttack wa;
+    
 
     bool attackingB = false;
+
 	// Use this for initialization
 	void Start () {
         pm = this.GetComponent<PlayerMovement>();
@@ -61,6 +64,14 @@ public class PlayerAnimate : MonoBehaviour {
             if (counter < attacking.Length -1)
             {
                 counter++;
+            } else
+            {
+                if (attackingB == true)
+                {
+                    attackingB = false;
+                    resetCounter();
+                }
+                counter = 0;
             }
             timer = 0.1f;
         }
@@ -82,7 +93,7 @@ public class PlayerAnimate : MonoBehaviour {
                 {
                     legCount = 0;
                 }
-                legTimer = 0.0f;
+                legTimer = 0.05f;
                 }
             }
         }

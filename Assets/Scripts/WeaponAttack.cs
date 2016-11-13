@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class WeaponAttack : MonoBehaviour {
-    public GameObject oneHandSpawn, twoHandSpawn, bullet, curWeapon;
+    public GameObject oneHandSpawn, twoHandSpawn, bullet;
+    GameObject curWeapon;
     bool gun = false;
     float timer = 0.1f, timerReset = 0.1f;
     PlayerAnimate pa;
@@ -30,7 +31,7 @@ public class WeaponAttack : MonoBehaviour {
             attack();
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             pa.resetCounter();
         }
@@ -40,7 +41,7 @@ public class WeaponAttack : MonoBehaviour {
         }
         //another way to drop weapon
 
-        if (Input.GetMouseButtonDown(3) && !changingWeapon)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !changingWeapon)
         {
             dropWeapon();
         }
@@ -94,10 +95,12 @@ public class WeaponAttack : MonoBehaviour {
         {
             //melee attack 
             pa.attack();
-            RaycastHit2D ray = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y));
+
+            RaycastHit2D ray = Physics2D.Raycast (new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y));
             Debug.DrawRay(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y), Color.green);
 
             if (curWeapon == null && ray.collider.gameObject.tag == "Enemy")
+               
             {
                 EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
                 ea.knockDownEnemy();
