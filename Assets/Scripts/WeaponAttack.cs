@@ -55,14 +55,14 @@ public class WeaponAttack : MonoBehaviour {
         }
     }
 
-    public void setWeapon(GameObject cur, string name, float fireRate, bool gun,bool oneHanded)
+    public void setWeapon(GameObject cur, string name, float fireRate, bool gun, bool oneHanded)
     {
         changingWeapon = true;
         curWeapon = cur;
         pa.SetNewTorso(sc.getWeaponWalk(name), sc.getWeapon(name));
-        this.gun = gun;
         timerReset = fireRate;
         timer = timerReset;
+        this.gun = gun;
         this.oneHanded = oneHanded;
     }
 
