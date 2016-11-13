@@ -40,12 +40,12 @@ public class WeaponAttack : MonoBehaviour {
         }
         //another way to drop weapon
 
-        if (Input.GetMouseButtonDown(3) && changingWeapon == false)
+        if (Input.GetMouseButtonDown(3) && !changingWeapon)
         {
             dropWeapon();
         }
 
-        if (changingWeapon == true)
+        if (changingWeapon)
         {
             weaponChange -= Time.deltaTime;
             if (weaponChange <= 0)
