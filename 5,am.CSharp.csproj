@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\EnemyAttacked.cs" />
     <Compile Include="Assets\Scripts\GenericAnimate.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimate.cs" />

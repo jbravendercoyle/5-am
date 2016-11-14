@@ -94,6 +94,8 @@ public class WeaponAttack : MonoBehaviour {
         } else
         {
             //melee attack 
+            int layerMask = 1<<9;
+            layerMask = ~layerMask;
             pa.attack();
 
             RaycastHit2D ray = Physics2D.Raycast (new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y));
