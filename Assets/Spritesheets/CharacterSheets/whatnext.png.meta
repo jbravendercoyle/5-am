@@ -1,48 +1,111 @@
 fileFormatVersion: 2
 guid: c5d8b490508329143b7c642188f65772
-timeCreated: 1478934097
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: whatnext_0
-    21300002: whatnext_1
-    21300004: whatnext_2
-    21300006: whatnext_3
-    21300008: whatnext_4
-    21300010: whatnext_5
-    21300012: whatnext_6
-    21300014: whatnext_7
-    21300016: whatnext_8
-    21300018: whatnext_9
-    21300020: whatnext_10
-    21300022: whatnext_11
-    21300024: whatnext_12
-    21300026: whatnext_13
-    21300028: whatnext_14
-    21300030: whatnext_15
-    21300032: whatnext_16
-    21300034: whatnext_17
-    21300036: whatnext_18
-    21300038: whatnext_19
-    21300040: whatnext_20
-    21300042: whatnext_21
-    21300044: whatnext_22
-    21300046: whatnext_23
-    21300048: whatnext_24
-    21300050: whatnext_25
-    21300052: whatnext_26
-    21300054: whatnext_27
-    21300056: whatnext_28
-    21300058: whatnext_29
-    21300060: whatnext_30
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: whatnext_0
+  - first:
+      213: 21300002
+    second: whatnext_1
+  - first:
+      213: 21300004
+    second: whatnext_2
+  - first:
+      213: 21300006
+    second: whatnext_3
+  - first:
+      213: 21300008
+    second: whatnext_4
+  - first:
+      213: 21300010
+    second: whatnext_5
+  - first:
+      213: 21300012
+    second: whatnext_6
+  - first:
+      213: 21300014
+    second: whatnext_7
+  - first:
+      213: 21300016
+    second: whatnext_8
+  - first:
+      213: 21300018
+    second: whatnext_9
+  - first:
+      213: 21300020
+    second: whatnext_10
+  - first:
+      213: 21300022
+    second: whatnext_11
+  - first:
+      213: 21300024
+    second: whatnext_12
+  - first:
+      213: 21300026
+    second: whatnext_13
+  - first:
+      213: 21300028
+    second: whatnext_14
+  - first:
+      213: 21300030
+    second: whatnext_15
+  - first:
+      213: 21300032
+    second: whatnext_16
+  - first:
+      213: 21300034
+    second: whatnext_17
+  - first:
+      213: 21300036
+    second: whatnext_18
+  - first:
+      213: 21300038
+    second: whatnext_19
+  - first:
+      213: 21300040
+    second: whatnext_20
+  - first:
+      213: 21300042
+    second: whatnext_21
+  - first:
+      213: 21300044
+    second: whatnext_22
+  - first:
+      213: 21300046
+    second: whatnext_23
+  - first:
+      213: 21300048
+    second: whatnext_24
+  - first:
+      213: 21300050
+    second: whatnext_25
+  - first:
+      213: 21300052
+    second: whatnext_26
+  - first:
+      213: 21300054
+    second: whatnext_27
+  - first:
+      213: 21300056
+    second: whatnext_28
+  - first:
+      213: 21300058
+    second: whatnext_29
+  - first:
+      213: 21300060
+    second: whatnext_30
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -51,37 +114,60 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: whatnext_0
+    - serializedVersion: 2
+      name: whatnext_0
       rect:
         serializedVersion: 2
         x: 765
@@ -91,26 +177,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 87.5}
-        - {x: -40.5, y: 60.5}
-        - {x: -40.5, y: -70.5}
-        - {x: -15.5, y: -96.5}
-        - {x: 20.5, y: -96.5}
-        - {x: 38.5, y: -59.5}
-        - {x: 38.5, y: 80.5}
-        - {x: 20.5, y: 87.5}
-      - - {x: -28.5, y: 63.5}
-        - {x: -25.5, y: 64.5}
-        - {x: -25.5, y: 67.5}
-        - {x: -28.5, y: 68.5}
-        - {x: -30.5, y: 66.5}
-      - - {x: -17.5, y: 75.5}
-        - {x: -14.5, y: 76.5}
-        - {x: -14.5, y: 79.5}
-        - {x: -17.5, y: 80.5}
-        - {x: -19.5, y: 78.5}
-    - name: whatnext_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_1
       rect:
         serializedVersion: 2
         x: 768
@@ -120,30 +198,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12.5, y: 85.5}
-        - {x: -29.5, y: 85.5}
-        - {x: -40.5, y: 77.5}
-        - {x: -40.5, y: -85.5}
-        - {x: 25.5, y: -85.5}
-        - {x: 38.5, y: -77.5}
-        - {x: 38.5, y: 52.5}
-        - {x: 32.5, y: 73.5}
-      - - {x: -40.5, y: -47.5}
-        - {x: -40.5, y: -53.5}
-        - {x: -38.5, y: -55.5}
-        - {x: -36.5, y: -55.5}
-        - {x: -34.5, y: -53.5}
-        - {x: -35.5, y: -48.5}
-        - {x: -37.5, y: -46.5}
-      - - {x: -38.5, y: 52.5}
-        - {x: -37.5, y: 50.5}
-        - {x: -35.5, y: 50.5}
-        - {x: -31.5, y: 54.5}
-        - {x: -31.5, y: 58.5}
-        - {x: -33.5, y: 60.5}
-        - {x: -36.5, y: 59.5}
-    - name: whatnext_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_2
       rect:
         serializedVersion: 2
         x: 767
@@ -153,35 +219,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10.5, y: 72.5}
-        - {x: 9.5, y: 71.5}
-        - {x: 14.5, y: 74.5}
-        - {x: 18.5, y: 80.5}
-        - {x: 4.5, y: 86.5}
-        - {x: -19.5, y: 86.5}
-        - {x: -27.5, y: 81.5}
-        - {x: -45.5, y: 65.5}
-        - {x: -45.5, y: -32.5}
-        - {x: -33.5, y: -78.5}
-        - {x: -24.5, y: -80.5}
-        - {x: -18.5, y: -80.5}
-        - {x: -16.5, y: -78.5}
-        - {x: -15.5, y: -80.5}
-        - {x: -21.5, y: -80.5}
-        - {x: -23.5, y: -82.5}
-        - {x: -24.5, y: -85.5}
-        - {x: -23.5, y: -89.5}
-        - {x: 35.5, y: -89.5}
-        - {x: 35.5, y: 72.5}
-      - - {x: -44.5, y: -48.5}
-        - {x: -44.5, y: -54.5}
-        - {x: -42.5, y: -56.5}
-        - {x: -40.5, y: -56.5}
-        - {x: -38.5, y: -54.5}
-        - {x: -39.5, y: -49.5}
-        - {x: -41.5, y: -47.5}
-    - name: whatnext_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_3
       rect:
         serializedVersion: 2
         x: 891
@@ -191,34 +240,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23.5, y: 84.5}
-        - {x: -37.5, y: 77.5}
-        - {x: -37.5, y: -82.5}
-        - {x: -25.5, y: -92.5}
-        - {x: 31.5, y: -92.5}
-        - {x: 40.5, y: -61.5}
-        - {x: 40.5, y: 66.5}
-        - {x: 24.5, y: 84.5}
-      - - {x: -26.5, y: -75.5}
-        - {x: -23.5, y: -74.5}
-        - {x: -23.5, y: -71.5}
-        - {x: -26.5, y: -70.5}
-        - {x: -28.5, y: -72.5}
-      - - {x: -36.5, y: -58.5}
-        - {x: -32.5, y: -65.5}
-        - {x: -29.5, y: -64.5}
-        - {x: -29.5, y: -61.5}
-        - {x: -33.5, y: -55.5}
-        - {x: -35.5, y: -55.5}
-      - - {x: -38.5, y: 48.5}
-        - {x: -38.5, y: 43.5}
-        - {x: -36.5, y: 41.5}
-        - {x: -33.5, y: 42.5}
-        - {x: -32.5, y: 48.5}
-        - {x: -34.5, y: 50.5}
-        - {x: -36.5, y: 50.5}
-    - name: whatnext_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_4
       rect:
         serializedVersion: 2
         x: 891
@@ -228,21 +261,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 31.5, y: 88}
-        - {x: -42.5, y: 88}
-        - {x: -42.5, y: -68}
-        - {x: -29.5, y: -85}
-        - {x: 12.5, y: -85}
-        - {x: 36.5, y: -50}
-        - {x: 36.5, y: 85}
-      - - {x: -40.5, y: -51}
-        - {x: -36.5, y: -58}
-        - {x: -33.5, y: -57}
-        - {x: -33.5, y: -54}
-        - {x: -37.5, y: -48}
-        - {x: -39.5, y: -48}
-    - name: whatnext_5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_5
       rect:
         serializedVersion: 2
         x: 887
@@ -252,55 +282,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 21, y: -65}
-        - {x: -2, y: -82}
-        - {x: -4, y: -84}
-        - {x: -4, y: -87}
-        - {x: 10, y: -87}
-        - {x: 25, y: -72}
-        - {x: 26, y: -67}
-        - {x: 24, y: -65}
-      - - {x: 25, y: -33}
-        - {x: 25, y: -35}
-        - {x: 26, y: -37}
-        - {x: 24, y: -41}
-        - {x: 24, y: -48}
-        - {x: 26, y: -50}
-        - {x: 29, y: -49}
-        - {x: 39, y: -22}
-        - {x: 39, y: 85}
-        - {x: 28, y: 87}
-        - {x: -19, y: 87}
-        - {x: -20, y: 85}
-        - {x: -17, y: 79}
-        - {x: -15, y: 80}
-        - {x: -12, y: 81}
-        - {x: -5, y: 82}
-        - {x: -7, y: 82}
-        - {x: -11, y: 78}
-        - {x: -24, y: 79}
-        - {x: -39, y: 37}
-        - {x: -39, y: -76}
-        - {x: -26, y: -84}
-        - {x: 2, y: -84}
-        - {x: 18, y: -72}
-        - {x: 24, y: -41}
-        - {x: 24, y: -39}
-        - {x: 25, y: -38}
-      - - {x: -40, y: 54}
-        - {x: -40, y: 49}
-        - {x: -38, y: 47}
-        - {x: -35, y: 48}
-        - {x: -34, y: 54}
-        - {x: -36, y: 56}
-        - {x: -38, y: 56}
-      - - {x: -26, y: 73}
-        - {x: -23, y: 74}
-        - {x: -23, y: 77}
-        - {x: -26, y: 78}
-        - {x: -28, y: 76}
-    - name: whatnext_6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_6
       rect:
         serializedVersion: 2
         x: 52
@@ -310,25 +303,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: -2}
-        - {x: 1, y: -9}
-        - {x: 1, y: -23}
-        - {x: 8, y: -30}
-        - {x: 28, y: -30}
-        - {x: 37, y: -25}
-        - {x: 37, y: -10}
-        - {x: 35, y: -2}
-      - - {x: -29, y: 27}
-        - {x: -34, y: 24}
-        - {x: -34, y: 7}
-        - {x: -21, y: -4}
-        - {x: -20, y: -5}
-        - {x: -1, y: -5}
-        - {x: 7, y: 0}
-        - {x: 7, y: 19}
-        - {x: -1, y: 27}
-    - name: whatnext_7
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_7
       rect:
         serializedVersion: 2
         x: 140
@@ -338,20 +324,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3.5, y: -2.5}
-        - {x: -3.5, y: -29.5}
-        - {x: 36.5, y: -29.5}
-        - {x: 38.5, y: -28.5}
-        - {x: 38.5, y: -3.5}
-        - {x: 35.5, y: -2.5}
-      - - {x: -38.5, y: 26.5}
-        - {x: -38.5, y: 1.5}
-        - {x: -27.5, y: -6.5}
-        - {x: -2.5, y: -6.5}
-        - {x: 3.5, y: -2.5}
-        - {x: 3.5, y: 26.5}
-    - name: whatnext_8
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_8
       rect:
         serializedVersion: 2
         x: 219
@@ -361,23 +345,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: -4.5}
-        - {x: -1, y: -6.5}
-        - {x: -1, y: -33.5}
-        - {x: 11, y: -34.5}
-        - {x: 43, y: -34.5}
-        - {x: 43, y: -13.5}
-        - {x: 30, y: -4.5}
-      - - {x: -41, y: 29.5}
-        - {x: -43, y: 28.5}
-        - {x: -43, y: 5.5}
-        - {x: -23, y: -6.5}
-        - {x: 1, y: -6.5}
-        - {x: 3, y: 1.5}
-        - {x: 3, y: 21.5}
-        - {x: -7, y: 29.5}
-    - name: whatnext_9
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_9
       rect:
         serializedVersion: 2
         x: 307
@@ -387,24 +366,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -0.5, y: -6}
-        - {x: -2.5, y: -10}
-        - {x: -2.5, y: -27}
-        - {x: 5.5, y: -34}
-        - {x: 9.5, y: -35}
-        - {x: 51.5, y: -35}
-        - {x: 51.5, y: -16}
-        - {x: 37.5, y: -6}
-      - - {x: -50.5, y: 26}
-        - {x: -51.5, y: 24}
-        - {x: -51.5, y: 1}
-        - {x: -27.5, y: -9}
-        - {x: 0.5, y: -9}
-        - {x: 2.5, y: -7}
-        - {x: 2.5, y: 21}
-        - {x: -13.5, y: 26}
-    - name: whatnext_10
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_10
       rect:
         serializedVersion: 2
         x: 418
@@ -414,24 +387,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: -5.5}
-        - {x: -3, y: -10.5}
-        - {x: -3, y: -20.5}
-        - {x: 3, y: -32.5}
-        - {x: 16, y: -33.5}
-        - {x: 54, y: -33.5}
-        - {x: 55, y: -32.5}
-        - {x: 55, y: -10.5}
-        - {x: 41, y: -5.5}
-      - - {x: -35, y: 31.5}
-        - {x: -52, y: 23.5}
-        - {x: -52, y: 7.5}
-        - {x: -45, y: -7.5}
-        - {x: 8, y: -7.5}
-        - {x: 8, y: 19.5}
-        - {x: -11, y: 31.5}
-    - name: whatnext_11
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_11
       rect:
         serializedVersion: 2
         x: 535
@@ -441,25 +408,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 29, y: -7}
-        - {x: -1, y: -7}
-        - {x: -3, y: -12}
-        - {x: -3, y: -27}
-        - {x: 2, y: -36}
-        - {x: 52, y: -36}
-        - {x: 52, y: -18}
-        - {x: 47, y: -9}
-      - - {x: -47, y: 26}
-        - {x: -52, y: 24}
-        - {x: -52, y: 4}
-        - {x: -45, y: -4}
-        - {x: -22, y: -8}
-        - {x: 0, y: -8}
-        - {x: 4, y: 2}
-        - {x: 4, y: 21}
-        - {x: -3, y: 26}
-    - name: whatnext_12
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_12
       rect:
         serializedVersion: 2
         x: 644
@@ -469,25 +429,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 25, y: -7.5}
-        - {x: -1, y: -7.5}
-        - {x: -1, y: -26.5}
-        - {x: 4, y: -37.5}
-        - {x: 42, y: -37.5}
-        - {x: 46, y: -33.5}
-        - {x: 46, y: -20.5}
-        - {x: 41, y: -10.5}
-      - - {x: -30, y: 26.5}
-        - {x: -43, y: 21.5}
-        - {x: -43, y: 4.5}
-        - {x: -37, y: 0.5}
-        - {x: -17, y: -9.5}
-        - {x: 3, y: -9.5}
-        - {x: 5, y: -1.5}
-        - {x: 5, y: 16.5}
-        - {x: -15, y: 26.5}
-    - name: whatnext_13
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_13
       rect:
         serializedVersion: 2
         x: 743
@@ -497,28 +450,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: -4}
-        - {x: 1, y: -7}
-        - {x: -2, y: -18}
-        - {x: -2, y: -22}
-        - {x: 0, y: -25}
-        - {x: 5, y: -32}
-        - {x: 27, y: -32}
-        - {x: 38, y: -31}
-        - {x: 38, y: -6}
-        - {x: 24, y: -4}
-      - - {x: -7, y: 25}
-        - {x: -32, y: 25}
-        - {x: -38, y: 21}
-        - {x: -38, y: 3}
-        - {x: -32, y: -8}
-        - {x: -25, y: -9}
-        - {x: -5, y: -9}
-        - {x: 4, y: -3}
-        - {x: 6, y: 4}
-        - {x: 6, y: 17}
-    - name: whatnext_14
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_14
       rect:
         serializedVersion: 2
         x: 828
@@ -528,23 +471,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1.5, y: -5.5}
-        - {x: -1.5, y: -21.5}
-        - {x: 1.5, y: -30.5}
-        - {x: 27.5, y: -30.5}
-        - {x: 33.5, y: -28.5}
-        - {x: 33.5, y: -13.5}
-        - {x: 23.5, y: -5.5}
-      - - {x: -27.5, y: 24.5}
-        - {x: -35.5, y: 21.5}
-        - {x: -35.5, y: 2.5}
-        - {x: -19.5, y: -6.5}
-        - {x: 0.5, y: -6.5}
-        - {x: 6.5, y: 5.5}
-        - {x: 6.5, y: 17.5}
-        - {x: -0.5, y: 24.5}
-    - name: whatnext_15
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_15
       rect:
         serializedVersion: 2
         x: 909
@@ -554,27 +492,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 17.5, y: -4.5}
-        - {x: -0.5, y: -4.5}
-        - {x: -2.5, y: -7.5}
-        - {x: -2.5, y: -21.5}
-        - {x: -1.5, y: -25.5}
-        - {x: 3.5, y: -30.5}
-        - {x: 28.5, y: -30.5}
-        - {x: 31.5, y: -29.5}
-        - {x: 31.5, y: -12.5}
-        - {x: 29.5, y: -7.5}
-      - - {x: -25.5, y: 21.5}
-        - {x: -32.5, y: 17.5}
-        - {x: -32.5, y: 1.5}
-        - {x: -27.5, y: -8.5}
-        - {x: -21.5, y: -9.5}
-        - {x: -4.5, y: -9.5}
-        - {x: 2.5, y: 1.5}
-        - {x: 2.5, y: 9.5}
-        - {x: -12.5, y: 21.5}
-    - name: whatnext_16
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_16
       rect:
         serializedVersion: 2
         x: 53
@@ -584,25 +513,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: -23}
-        - {x: -31.5, y: -27}
-        - {x: -27.5, y: -31}
-        - {x: -4.5, y: -31}
-        - {x: 7.5, y: -25}
-        - {x: 7.5, y: 1}
-        - {x: 6.5, y: 2}
-        - {x: -17.5, y: 2}
-        - {x: -32.5, y: -7}
-      - - {x: 7.5, y: -1}
-        - {x: 25.5, y: -1}
-        - {x: 35.5, y: 3}
-        - {x: 35.5, y: 23}
-        - {x: 34.5, y: 25}
-        - {x: 8.5, y: 25}
-        - {x: 1.5, y: 23}
-        - {x: 1.5, y: 5}
-    - name: whatnext_17
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_17
       rect:
         serializedVersion: 2
         x: 133
@@ -612,26 +534,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 4}
-        - {x: -13, y: 4}
-        - {x: -33, y: -1}
-        - {x: -38, y: -6}
-        - {x: -38, y: -18}
-        - {x: -31, y: -30}
-        - {x: -10, y: -30}
-        - {x: 4, y: -21}
-        - {x: 5, y: -15}
-        - {x: 5, y: 1}
-      - - {x: 4, y: 27}
-        - {x: -1, y: 18}
-        - {x: -1, y: 3}
-        - {x: 3, y: 1}
-        - {x: 26, y: 1}
-        - {x: 39, y: 9}
-        - {x: 39, y: 23}
-        - {x: 31, y: 27}
-    - name: whatnext_18
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_18
       rect:
         serializedVersion: 2
         x: 216
@@ -641,30 +555,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1.5, y: 7}
-        - {x: -21.5, y: 7}
-        - {x: -38.5, y: 2}
-        - {x: -44.5, y: -7}
-        - {x: -44.5, y: -27}
-        - {x: -35.5, y: -31}
-        - {x: -11.5, y: -31}
-        - {x: -1.5, y: -26}
-        - {x: 4.5, y: -14}
-        - {x: 4.5, y: 1}
-      - - {x: 41.5, y: -14}
-        - {x: 43.5, y: -16}
-        - {x: 44.5, y: -16}
-        - {x: 44.5, y: -7}
-        - {x: 41.5, y: -8}
-      - - {x: 13.5, y: 31}
-        - {x: -2.5, y: 23}
-        - {x: -2.5, y: 3}
-        - {x: 32.5, y: 3}
-        - {x: 40.5, y: 8}
-        - {x: 43.5, y: 13}
-        - {x: 43.5, y: 31}
-    - name: whatnext_19
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_19
       rect:
         serializedVersion: 2
         x: 306
@@ -674,26 +576,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7.5, y: 7.5}
-        - {x: -22.5, y: 7.5}
-        - {x: -50.5, y: -4.5}
-        - {x: -50.5, y: -22.5}
-        - {x: -48.5, y: -26.5}
-        - {x: -40.5, y: -28.5}
-        - {x: -13.5, y: -28.5}
-        - {x: 2.5, y: -15.5}
-        - {x: 2.5, y: 3.5}
-        - {x: 1.5, y: 5.5}
-      - - {x: -4.5, y: 13.5}
-        - {x: -3.5, y: 7.5}
-        - {x: -1.5, y: 4.5}
-        - {x: 29.5, y: 4.5}
-        - {x: 48.5, y: 10.5}
-        - {x: 48.5, y: 30.5}
-        - {x: 1.5, y: 30.5}
-        - {x: -4.5, y: 20.5}
-    - name: whatnext_20
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_20
       rect:
         serializedVersion: 2
         x: 417
@@ -703,24 +597,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: 5}
-        - {x: -52, y: -5}
-        - {x: -53, y: -9}
-        - {x: -53, y: -29}
-        - {x: -6, y: -29}
-        - {x: 5, y: -27}
-        - {x: 5, y: 4}
-        - {x: 1, y: 5}
-      - - {x: 51, y: 33}
-        - {x: 2, y: 33}
-        - {x: -3, y: 22}
-        - {x: -3, y: 4}
-        - {x: 35, y: 4}
-        - {x: 52, y: 12}
-        - {x: 54, y: 17}
-        - {x: 54, y: 30}
-    - name: whatnext_21
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_21
       rect:
         serializedVersion: 2
         x: 529
@@ -730,29 +618,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23, y: 5}
-        - {x: -50, y: -1}
-        - {x: -53, y: -8}
-        - {x: -53, y: -29}
-        - {x: -48, y: -30}
-        - {x: -16, y: -30}
-        - {x: 4, y: -17}
-        - {x: 4, y: 1}
-        - {x: -4, y: 5}
-      - - {x: 48, y: 32}
-        - {x: 14, y: 32}
-        - {x: 3, y: 30}
-        - {x: -2, y: 18}
-        - {x: -2, y: 8}
-        - {x: 2, y: 4}
-        - {x: 7, y: 2}
-        - {x: 15, y: 2}
-        - {x: 24, y: 3}
-        - {x: 45, y: 11}
-        - {x: 50, y: 14}
-        - {x: 50, y: 26}
-    - name: whatnext_22
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_22
       rect:
         serializedVersion: 2
         x: 640
@@ -762,25 +639,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 4}
-        - {x: -33, y: -3}
-        - {x: -45, y: -12}
-        - {x: -45, y: -32}
-        - {x: 0, y: -32}
-        - {x: 3, y: -19}
-        - {x: 3, y: 1}
-        - {x: -5, y: 4}
-      - - {x: 10, y: 31}
-        - {x: 4, y: 28}
-        - {x: -4, y: 16}
-        - {x: -4, y: 6}
-        - {x: 1, y: 1}
-        - {x: 27, y: 1}
-        - {x: 45, y: 7}
-        - {x: 45, y: 28}
-        - {x: 39, y: 31}
-    - name: whatnext_23
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_23
       rect:
         serializedVersion: 2
         x: 740
@@ -790,26 +660,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1.5, y: -1}
-        - {x: -16.5, y: -1}
-        - {x: -28.5, y: -4}
-        - {x: -33.5, y: -5}
-        - {x: -39.5, y: -13}
-        - {x: -39.5, y: -29}
-        - {x: -31.5, y: -32}
-        - {x: 0.5, y: -32}
-        - {x: 2.5, y: -31}
-        - {x: 4.5, y: -25}
-        - {x: 4.5, y: -4}
-      - - {x: 1.5, y: 22}
-        - {x: -4.5, y: 19}
-        - {x: -4.5, y: 0}
-        - {x: 0.5, y: -3}
-        - {x: 33.5, y: -3}
-        - {x: 39.5, y: 3}
-        - {x: 39.5, y: 22}
-    - name: whatnext_24
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_24
       rect:
         serializedVersion: 2
         x: 823
@@ -819,26 +681,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1.5, y: 2}
-        - {x: -23.5, y: 2}
-        - {x: -27.5, y: 1}
-        - {x: -34.5, y: -6}
-        - {x: -34.5, y: -23}
-        - {x: -32.5, y: -30}
-        - {x: -7.5, y: -30}
-        - {x: 4.5, y: -19}
-        - {x: 5.5, y: -18}
-        - {x: 5.5, y: -7}
-      - - {x: 5.5, y: 25}
-        - {x: -0.5, y: 19}
-        - {x: -0.5, y: 5}
-        - {x: 1.5, y: -1}
-        - {x: 26.5, y: -1}
-        - {x: 36.5, y: 10}
-        - {x: 36.5, y: 22}
-        - {x: 34.5, y: 25}
-    - name: whatnext_25
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_25
       rect:
         serializedVersion: 2
         x: 903
@@ -848,23 +702,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: 5}
-        - {x: -32.5, y: -23}
-        - {x: -25.5, y: -26}
-        - {x: -7.5, y: -26}
-        - {x: 0.5, y: -20}
-        - {x: 0.5, y: 5}
-      - - {x: 1.5, y: 26}
-        - {x: -3.5, y: 15}
-        - {x: -3.5, y: 0}
-        - {x: 0.5, y: -2}
-        - {x: 13.5, y: -2}
-        - {x: 28.5, y: 3}
-        - {x: 31.5, y: 6}
-        - {x: 31.5, y: 19}
-        - {x: 27.5, y: 26}
-    - name: whatnext_26
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_26
       rect:
         serializedVersion: 2
         x: 566
@@ -874,27 +723,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23, y: 78}
-        - {x: 12, y: 89}
-        - {x: -27, y: 89}
-        - {x: -54, y: 76}
-        - {x: -54, y: -83}
-        - {x: -45, y: -89}
-        - {x: 15, y: -89}
-        - {x: 53, y: -82}
-        - {x: 53, y: -47}
-      - - {x: -42, y: 66}
-        - {x: -39, y: 67}
-        - {x: -39, y: 70}
-        - {x: -42, y: 71}
-        - {x: -44, y: 69}
-      - - {x: -31, y: 78}
-        - {x: -28, y: 79}
-        - {x: -28, y: 82}
-        - {x: -31, y: 83}
-        - {x: -33, y: 81}
-    - name: whatnext_27
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_27
       rect:
         serializedVersion: 2
         x: 568
@@ -904,27 +744,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 43.5, y: 81}
-        - {x: -52.5, y: 81}
-        - {x: -62.5, y: 49}
-        - {x: -62.5, y: -87}
-        - {x: -57.5, y: -89}
-        - {x: 24.5, y: -89}
-        - {x: 38.5, y: -79}
-        - {x: 63.5, y: -66}
-        - {x: 63.5, y: 38}
-      - - {x: -50.5, y: 58}
-        - {x: -47.5, y: 59}
-        - {x: -47.5, y: 62}
-        - {x: -50.5, y: 63}
-        - {x: -52.5, y: 61}
-      - - {x: -39.5, y: 70}
-        - {x: -36.5, y: 71}
-        - {x: -36.5, y: 74}
-        - {x: -39.5, y: 75}
-        - {x: -41.5, y: 73}
-    - name: whatnext_28
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_28
       rect:
         serializedVersion: 2
         x: 232
@@ -934,58 +765,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.20945834, y: 0.4611199}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.634918, y: 92.68738}
-        - {x: -29.634918, y: 86.68738}
-        - {x: -29.634918, y: -79.31262}
-        - {x: 37.36508, y: -79.31262}
-        - {x: 128.36508, y: -56.312622}
-        - {x: 147.36508, y: -10.312622}
-        - {x: 147.36508, y: 30.687378}
-        - {x: 52.36508, y: 92.68738}
-      - - {x: 45.36508, y: -79.31262}
-        - {x: 44.36508, y: -76.31262}
-        - {x: 40.36508, y: -76.31262}
-        - {x: 39.36508, y: -79.31262}
-      - - {x: 71.36508, y: -53.312622}
-        - {x: 67.36508, y: -53.312622}
-        - {x: 51.36508, y: -65.31262}
-        - {x: 49.36508, y: -70.31262}
-        - {x: 49.36508, y: -76.31262}
-        - {x: 54.36508, y: -76.31262}
-        - {x: 71.36508, y: -63.312622}
-        - {x: 72.36508, y: -57.312622}
-        - {x: 72.36508, y: -54.312622}
-      - - {x: 58.36508, y: 78.68738}
-        - {x: 55.36508, y: 77.68738}
-        - {x: 55.36508, y: 70.68738}
-        - {x: 58.36508, y: 62.687378}
-        - {x: 60.36508, y: 62.687378}
-        - {x: 65.36508, y: 65.68738}
-        - {x: 65.36508, y: 69.68738}
-        - {x: 64.36508, y: 74.68738}
-      - - {x: -17.634918, y: 70.68738}
-        - {x: -14.634918, y: 71.68738}
-        - {x: -14.634918, y: 74.68738}
-        - {x: -17.634918, y: 75.68738}
-        - {x: -19.634918, y: 73.68738}
-      - - {x: 40.36508, y: 83.68738}
-        - {x: 44.36508, y: 79.68738}
-        - {x: 47.36508, y: 80.68738}
-        - {x: 47.36508, y: 82.68738}
-        - {x: 43.36508, y: 86.68738}
-        - {x: 41.36508, y: 86.68738}
-      - - {x: -6.634918, y: 82.68738}
-        - {x: -3.6349182, y: 83.68738}
-        - {x: -3.6349182, y: 86.68738}
-        - {x: -6.634918, y: 87.68738}
-        - {x: -8.634918, y: 85.68738}
-      - - {x: 38.36508, y: 87.68738}
-        - {x: 41.36508, y: 88.68738}
-        - {x: 41.36508, y: 91.68738}
-        - {x: 38.36508, y: 92.68738}
-        - {x: 36.36508, y: 90.68738}
-    - name: whatnext_29
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_29
       rect:
         serializedVersion: 2
         x: 46
@@ -995,17 +786,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.15598457, y: 0.75457275}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 56.45714, y: 5.2713623}
-        - {x: -2.5428581, y: 5.2713623}
-        - {x: -3.5428581, y: 1.2713623}
-        - {x: -3.5428581, y: -6.7286377}
-        - {x: 14.457142, y: -24.728638}
-        - {x: 31.457142, y: -37.728638}
-        - {x: 51.45714, y: -37.728638}
-        - {x: 57.45714, y: -31.728638}
-        - {x: 57.45714, y: 3.2713623}
-    - name: whatnext_30
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whatnext_30
       rect:
         serializedVersion: 2
         x: 242
@@ -1015,48 +807,29 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.17174324, y: 0.46042973}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 74.76218, y: 72.18738}
-        - {x: 35.762177, y: 91.18738}
-        - {x: -11.2378235, y: 91.18738}
-        - {x: -27.237823, y: 79.18738}
-        - {x: -27.237823, y: -56.812622}
-        - {x: -11.2378235, y: -77.81262}
-        - {x: 62.762177, y: -77.81262}
-        - {x: 173.76218, y: -18.812622}
-        - {x: 173.76218, y: 13.187378}
-        - {x: 163.76218, y: 23.187378}
-      - - {x: 73.76218, y: -52.812622}
-        - {x: 69.76218, y: -52.812622}
-        - {x: 53.762177, y: -64.81262}
-        - {x: 51.762177, y: -69.81262}
-        - {x: 51.762177, y: -75.81262}
-        - {x: 56.762177, y: -75.81262}
-        - {x: 73.76218, y: -62.812622}
-        - {x: 74.76218, y: -56.812622}
-        - {x: 74.76218, y: -53.812622}
-      - - {x: 60.762177, y: 79.18738}
-        - {x: 57.762177, y: 78.18738}
-        - {x: 57.762177, y: 71.18738}
-        - {x: 60.762177, y: 63.187378}
-        - {x: 62.762177, y: 63.187378}
-        - {x: 67.76218, y: 66.18738}
-        - {x: 67.76218, y: 70.18738}
-        - {x: 66.76218, y: 75.18738}
-      - - {x: -15.2378235, y: 71.18738}
-        - {x: -12.2378235, y: 72.18738}
-        - {x: -12.2378235, y: 75.18738}
-        - {x: -15.2378235, y: 76.18738}
-        - {x: -17.237823, y: 74.18738}
-      - - {x: 40.762177, y: 85.18738}
-        - {x: 44.762177, y: 79.18738}
-        - {x: 49.762177, y: 79.18738}
-        - {x: 49.762177, y: 83.18738}
-        - {x: 44.762177, y: 91.18738}
-        - {x: 38.762177, y: 91.18738}
-        - {x: 39.762177, y: 87.18738}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

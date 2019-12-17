@@ -1,20 +1,27 @@
 fileFormatVersion: 2
 guid: 401dd8019434b0944a4a22ff406bb607
-timeCreated: 1478786870
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: waltheranimation_0
-    21300002: waltheranimation_1
-    21300004: waltheranimation_2
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: waltheranimation_0
+  - first:
+      213: 21300002
+    second: waltheranimation_1
+  - first:
+      213: 21300004
+    second: waltheranimation_2
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -23,37 +30,60 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: waltheranimation_0
+    - serializedVersion: 2
+      name: waltheranimation_0
       rect:
         serializedVersion: 2
         x: 234
@@ -63,56 +93,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.24687569, y: 0.5000007}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 47.612366, y: 82.99988}
-        - {x: -34.387634, y: 82.99988}
-        - {x: -39.387634, y: 66.99988}
-        - {x: -39.387634, y: -83.00012}
-        - {x: 23.612366, y: -83.00012}
-        - {x: 113.612366, y: -52.000122}
-        - {x: 137.61237, y: -6.000122}
-        - {x: 137.61237, y: 29.999878}
-        - {x: 65.612366, y: 72.99988}
-      - - {x: 27.612366, y: -83.00012}
-        - {x: 26.612366, y: -80.00012}
-        - {x: 21.612366, y: -80.00012}
-        - {x: 20.612366, y: -83.00012}
-      - - {x: 31.612366, y: -78.00012}
-        - {x: 28.612366, y: -81.00012}
-        - {x: 28.612366, y: -83.00012}
-        - {x: 35.612366, y: -83.00012}
-        - {x: 36.612366, y: -82.00012}
-        - {x: 36.612366, y: -81.00012}
-        - {x: 33.612366, y: -78.00012}
-      - - {x: 61.612366, y: -55.000122}
-        - {x: 57.612366, y: -55.000122}
-        - {x: 41.612366, y: -67.00012}
-        - {x: 39.612366, y: -72.00012}
-        - {x: 39.612366, y: -78.00012}
-        - {x: 44.612366, y: -78.00012}
-        - {x: 61.612366, y: -65.00012}
-        - {x: 62.612366, y: -59.000122}
-        - {x: 62.612366, y: -56.000122}
-      - - {x: 48.612366, y: 76.99988}
-        - {x: 45.612366, y: 75.99988}
-        - {x: 45.612366, y: 68.99988}
-        - {x: 48.612366, y: 60.999878}
-        - {x: 50.612366, y: 60.999878}
-        - {x: 55.612366, y: 63.999878}
-        - {x: 55.612366, y: 67.99988}
-        - {x: 54.612366, y: 72.99988}
-      - - {x: -27.387634, y: 68.99988}
-        - {x: -24.387634, y: 69.99988}
-        - {x: -24.387634, y: 72.99988}
-        - {x: -27.387634, y: 73.99988}
-        - {x: -29.387634, y: 71.99988}
-      - - {x: 30.612366, y: 82.99988}
-        - {x: 30.612366, y: 81.99988}
-        - {x: 34.612366, y: 77.99988}
-        - {x: 37.612366, y: 78.99988}
-        - {x: 37.612366, y: 80.99988}
-        - {x: 35.612366, y: 82.99988}
-    - name: waltheranimation_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waltheranimation_1
       rect:
         serializedVersion: 2
         x: 521
@@ -122,50 +114,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.23523791, y: 0.48798177}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -38.753296, y: 87.06714}
-        - {x: -38.753296, y: -59.93286}
-        - {x: -24.753296, y: -83.93286}
-        - {x: 23.246704, y: -83.93286}
-        - {x: 54.246704, y: -76.93286}
-        - {x: 155.2467, y: -18.932861}
-        - {x: 155.2467, y: 87.06714}
-      - - {x: 29.246704, y: -83.93286}
-        - {x: 37.246704, y: -83.93286}
-        - {x: 37.246704, y: -80.93286}
-        - {x: 35.246704, y: -77.93286}
-        - {x: 32.246704, y: -77.93286}
-        - {x: 29.246704, y: -79.93286}
-      - - {x: 62.246704, y: -54.93286}
-        - {x: 58.246704, y: -54.93286}
-        - {x: 42.246704, y: -66.93286}
-        - {x: 40.246704, y: -71.93286}
-        - {x: 40.246704, y: -77.93286}
-        - {x: 45.246704, y: -77.93286}
-        - {x: 62.246704, y: -64.93286}
-        - {x: 63.246704, y: -58.93286}
-        - {x: 63.246704, y: -55.93286}
-      - - {x: 49.246704, y: 77.06714}
-        - {x: 46.246704, y: 76.06714}
-        - {x: 46.246704, y: 69.06714}
-        - {x: 49.246704, y: 61.06714}
-        - {x: 51.246704, y: 61.06714}
-        - {x: 56.246704, y: 64.06714}
-        - {x: 56.246704, y: 68.06714}
-        - {x: 55.246704, y: 73.06714}
-      - - {x: -26.753296, y: 69.06714}
-        - {x: -23.753296, y: 70.06714}
-        - {x: -23.753296, y: 73.06714}
-        - {x: -26.753296, y: 74.06714}
-        - {x: -28.753296, y: 72.06714}
-      - - {x: 32.246704, y: 85.06714}
-        - {x: 31.246704, y: 82.06714}
-        - {x: 33.246704, y: 77.06714}
-        - {x: 36.246704, y: 77.06714}
-        - {x: 38.246704, y: 79.06714}
-        - {x: 38.246704, y: 81.06714}
-        - {x: 34.246704, y: 85.06714}
-    - name: waltheranimation_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waltheranimation_2
       rect:
         serializedVersion: 2
         x: 251
@@ -175,54 +135,29 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.22093049, y: 0.44502226}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49.813904, y: 91.335815}
-        - {x: -44.186096, y: 91.335815}
-        - {x: -44.186096, y: -74.664185}
-        - {x: -32.186096, y: -83.664185}
-        - {x: 57.813904, y: -83.664185}
-        - {x: 155.8139, y: -18.664185}
-        - {x: 155.8139, y: 14.335815}
-        - {x: 67.8139, y: 85.335815}
-      - - {x: 20.813904, y: -77.664185}
-        - {x: 16.813904, y: -78.664185}
-        - {x: 13.813904, y: -82.664185}
-        - {x: 13.813904, y: -83.664185}
-        - {x: 29.813904, y: -83.664185}
-        - {x: 31.813904, y: -81.664185}
-        - {x: 31.813904, y: -80.664185}
-        - {x: 30.813904, y: -77.664185}
-      - - {x: 56.813904, y: -54.664185}
-        - {x: 52.813904, y: -54.664185}
-        - {x: 36.813904, y: -66.664185}
-        - {x: 34.813904, y: -71.664185}
-        - {x: 34.813904, y: -77.664185}
-        - {x: 39.813904, y: -77.664185}
-        - {x: 56.813904, y: -64.664185}
-        - {x: 57.813904, y: -58.664185}
-        - {x: 57.813904, y: -55.664185}
-      - - {x: 43.813904, y: 77.335815}
-        - {x: 40.813904, y: 76.335815}
-        - {x: 40.813904, y: 69.335815}
-        - {x: 43.813904, y: 61.335815}
-        - {x: 45.813904, y: 61.335815}
-        - {x: 50.813904, y: 64.335815}
-        - {x: 50.813904, y: 68.335815}
-        - {x: 49.813904, y: 73.335815}
-      - - {x: -32.186096, y: 69.335815}
-        - {x: -29.186096, y: 70.335815}
-        - {x: -29.186096, y: 73.335815}
-        - {x: -32.186096, y: 74.335815}
-        - {x: -34.186096, y: 72.335815}
-      - - {x: 21.813904, y: 86.335815}
-        - {x: 26.813904, y: 77.335815}
-        - {x: 32.813904, y: 77.335815}
-        - {x: 32.813904, y: 81.335815}
-        - {x: 26.813904, y: 91.335815}
-        - {x: 22.813904, y: 91.335815}
-        - {x: 21.813904, y: 89.335815}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
