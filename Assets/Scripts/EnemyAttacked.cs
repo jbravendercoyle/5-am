@@ -5,7 +5,7 @@ public class EnemyAttacked : MonoBehaviour {
     public Sprite knockedDown, stabbed, bulletWound, backUp;
     public GameObject bloodPool, bloodSpurt;
     SpriteRenderer sr;
-    bool EnemyKnockedDown = false;
+    public bool EnemyKnockedDown;
     float knockDownTimer = 3.0f;
     GameObject player; 
 	// Use this for initialization
