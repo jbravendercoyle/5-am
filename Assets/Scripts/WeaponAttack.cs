@@ -100,7 +100,7 @@ public class WeaponAttack : MonoBehaviour {
             layerMask = ~layerMask;
             pa.attack();
 
-            RaycastHit2D ray = Physics2D.Raycast (new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y), 8f);
+            RaycastHit2D ray = Physics2D.Raycast (new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y), 0.5f, layerMask);
             Debug.DrawRay(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(transform.right.x, transform.right.y), Color.green);
 
             if (curWeapon == null && ray.collider.gameObject.tag == "Enemy")
@@ -108,6 +108,7 @@ public class WeaponAttack : MonoBehaviour {
                 
                 EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
                 ea.knockDownEnemy();
+
             } else if (ray.collider != null)
             {
                 if (ray.collider.gameObject.tag == "Enemy") {

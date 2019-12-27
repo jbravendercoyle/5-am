@@ -32,7 +32,7 @@ public class EnemyAttacked : MonoBehaviour {
         knockDownTimer -= Time.deltaTime;
         sr.sprite = knockedDown;
         this.GetComponent<CircleCollider2D>().enabled = false;
-        sr.sortingOrder = 2;
+        sr.sortingOrder = 1;
         this.GetComponent<EnemyAI>().enabled = false;
 
         if (knockDownTimer <=0)
