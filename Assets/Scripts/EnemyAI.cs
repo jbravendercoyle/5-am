@@ -48,7 +48,7 @@ public class EnemyAI : MonoBehaviour {
 
         if (patrol == true)
         {
-            Debug.Log("Patrolling normally");
+            //Debug.Log("Patrolling normally");
             speed = 2.0f;
 
             if (hit2.collider != null)
@@ -75,7 +75,7 @@ public class EnemyAI : MonoBehaviour {
         if (pursuingPlayer == true)
         {
             //transform.Translate(Vector3.right * speed * Time.deltaTime);
-            Debug.Log("Pursuing Player");
+            //Debug.Log("Pursuing Player");
             speed = 3.5f;
             rid.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2((playerLastPos.y - transform.position.y), (playerLastPos.x - transform.position.x)) * Mathf.Rad2Deg);
 

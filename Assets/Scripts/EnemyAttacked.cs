@@ -51,7 +51,7 @@ public class EnemyAttacked : MonoBehaviour {
     {
         sr.sprite = bulletWound;
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
-        sr.sortingOrder = 2;
+        sr.sortingOrder = 1;
         //disable ai 
         this.GetComponent<EnemyAI>().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
@@ -63,7 +63,7 @@ public class EnemyAttacked : MonoBehaviour {
         sr.sprite = stabbed;
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
         Instantiate(bloodSpurt, this.transform.position, player.transform.rotation);
-        sr.sortingOrder = 2;
+        sr.sortingOrder = 1;
         //disable ai
         this.GetComponent<EnemyAI>().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
