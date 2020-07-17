@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+using System.Collections.Generic;
+using UnityEngine.Experimental.Rendering.Universal;
 
-public class EnemyAttacked : MonoBehaviour {
+public class EnemyAnimate : MonoBehaviour {
     public Sprite knockedDown, stabbed, bulletWound, backUp;
     public GameObject bloodPool, bloodSpurt;
     SpriteRenderer sr;
     public bool EnemyKnockedDown;
     float knockDownTimer = 3.0f;
-    GameObject player; 
+    GameObject player;
+
 	// Use this for initialization
 	void Start () {
         sr = this.GetComponent<SpriteRenderer>();
@@ -34,13 +38,15 @@ public class EnemyAttacked : MonoBehaviour {
         this.GetComponent<CircleCollider2D>().enabled = false;
         sr.sortingOrder = 1;
         this.GetComponent<EnemyAI>().enabled = false;
+        this.GetComponent<ShadowCaster2D>().castsShadows = false;
 
         if (knockDownTimer <=0)
         {
             EnemyKnockedDown = false;
             sr.sprite = backUp;
             this.GetComponent<CircleCollider2D>().enabled = true;
-            this.GetComponent<EnemyAI>().enabled = false;
+            this.GetComponent<EnemyAI>().enabled = true;
+            this.GetComponent<ShadowCaster2D>().castsShadows = true;
             sr.sortingOrder = 5;
             knockDownTimer = 3.0f;
         } 
@@ -55,6 +61,7 @@ public class EnemyAttacked : MonoBehaviour {
         //disable ai 
         this.GetComponent<EnemyAI>().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
+        this.GetComponent<ShadowCaster2D>().castsShadows = false;
         this.gameObject.tag = "Dead";
     }
 
@@ -67,6 +74,7 @@ public class EnemyAttacked : MonoBehaviour {
         //disable ai
         this.GetComponent<EnemyAI>().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
+        this.GetComponent<ShadowCaster2D>().castsShadows = false;
         this.gameObject.tag = "Dead";
     }
 

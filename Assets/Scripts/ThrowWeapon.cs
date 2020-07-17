@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ThrowWeapon : MonoBehaviour {
-	EnemyAttacked attacked;
+	EnemyAnimate attacked;
 	float timer = 2.0f;
 	Vector3 direction;
 	Rigidbody2D rid;
@@ -36,7 +36,7 @@ public class ThrowWeapon : MonoBehaviour {
 	{
         if (col.gameObject.tag == "Enemy")
         {
-            attacked = col.gameObject.GetComponent<EnemyAttacked>();
+            attacked = col.gameObject.GetComponent<EnemyAnimate>();
             attacked.knockDownEnemy();
             rid.isKinematic = true;
             Destroy(this);

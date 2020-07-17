@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour {
     float speed = 2.0f;
     int layerMask = 1 << 8;
 
+    public Animator EnemyAnimCon;
+
     // Use this for initialization
     void Start() {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -25,6 +27,9 @@ public class EnemyAI : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         movement();
+        EnemyAnimCon.SetBool("Moving", moving);
+
+
         playerDetect();
     }
 
@@ -44,6 +49,7 @@ public class EnemyAI : MonoBehaviour {
         if (moving == true)
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
+            
         }
 
         if (patrol == true)
@@ -121,5 +127,6 @@ public class EnemyAI : MonoBehaviour {
             }
         }
     }
+
 }
 

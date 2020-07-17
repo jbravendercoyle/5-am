@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour {
 
     public Vector3 direction;
     string creator;
-    EnemyAttacked attacked;
+    EnemyAnimate attacked;
     public GameObject bloodImpact, wallImpact;
     // Use this for initialization
     float timer = 10.0f;
@@ -35,7 +35,7 @@ public class Bullet : MonoBehaviour {
     {
         if (col.gameObject.tag == "Enemy")
         {
-            attacked = col.gameObject.GetComponent<EnemyAttacked>();
+            attacked = col.gameObject.GetComponent<EnemyAnimate>();
             attacked.killBullet();
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);

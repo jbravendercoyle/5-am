@@ -20,7 +20,7 @@ public class WeaponPickup : MonoBehaviour {
     void OnTriggerStay2D(Collider2D coll)
     {
         Debug.Log("Collision");
-        if (coll.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (coll.gameObject.tag == "Player" && Input.GetKey(KeyCode.LeftShift)) {
 
             Debug.Log("Player picked up: " + name);
             if (wa.getCur () !=null)

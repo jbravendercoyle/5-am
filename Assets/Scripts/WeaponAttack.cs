@@ -4,6 +4,7 @@ using System.Collections;
 public class WeaponAttack : MonoBehaviour {
     public GameObject oneHandSpawn, twoHandSpawn, bullet;
     public GameObject curWeapon;
+    public GameObject muzzleFlash;
     bool gun = false;
     float timer = 0.1f, timerReset = 0.1f;
     PlayerAnimate pa;
@@ -84,10 +85,12 @@ public class WeaponAttack : MonoBehaviour {
             if(oneHanded == true)
             {
                 Instantiate(bullet, oneHandSpawn.transform.position, this.transform.rotation);
+                //Instantiate(muzzleFlash, oneHandSpawn.transform.position, this.transform.rotation);
             }
             else
             {
                 Instantiate(bullet, twoHandSpawn.transform.position, this.transform.rotation);
+               // Instantiate(muzzleFlash, oneHandSpawn.transform.position, this.transform.rotation);
             }
             timer = timerReset;
 
@@ -106,13 +109,13 @@ public class WeaponAttack : MonoBehaviour {
             if (curWeapon == null && ray.collider.gameObject.tag == "Enemy")
             {
                 
-                EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
+                EnemyAnimate ea = ray.collider.gameObject.GetComponent<EnemyAnimate>();
                 ea.knockDownEnemy();
 
             } else if (ray.collider != null)
             {
                 if (ray.collider.gameObject.tag == "Enemy") {
-                    EnemyAttacked ea = ray.collider.GetComponent<EnemyAttacked>();
+                    EnemyAnimate ea = ray.collider.GetComponent<EnemyAnimate>();
                     ea.killMelee();
                 }
             }
