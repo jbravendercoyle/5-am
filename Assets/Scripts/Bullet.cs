@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour {
     // Use this for initialization
     float timer = 10.0f;
 
+
 	void Start () {
 	
 	}

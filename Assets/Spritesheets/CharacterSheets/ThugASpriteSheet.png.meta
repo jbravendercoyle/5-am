@@ -23,6 +23,12 @@ TextureImporter:
   - first:
       213: -2667416348336111597
     second: ThugASpriteSheet_6
+  - first:
+      213: 6797094474438024551
+    second: ThugASpriteSheet_7
+  - first:
+      213: -7952761691428667174
+    second: ThugASpriteSheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -250,6 +256,27 @@ TextureImporter:
       bones: []
       spriteID: 3104b59b6fe6bfad0800000000000000
       internalID: -2667416348336111597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThugASpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d16a57961245e50800000000000000
+      internalID: 6797094474438024551
       vertices: []
       indices: 
       edges: []
